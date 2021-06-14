@@ -6,12 +6,12 @@
 </listeners>
     <test name="User Login">
         <classes>
-            <class name="TestScripts.Login" />
+            <class name="test.TestScripts.Login" />
         </classes>
     </test> 
         <test name="User Registration">
         <classes>
-            <class name="TestScripts.Login" />
+            <class name="test.TestScripts.Login" />
         </classes>
     </test> 
 </suite>
