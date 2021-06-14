@@ -40,7 +40,7 @@
      <artifactId>Xhaft</artifactId>
      <scope>system</scope>
      <version>1.0</version>
-     <systemPath>${basedir}/src/lib/API-Xhaft.jar</systemPath>
+     <systemPath>${basedir}/src/lib/API-Linux-Xhaft.jar</systemPath>
    </dependency>
 <dependency>
     <groupId>org.json</groupId>
