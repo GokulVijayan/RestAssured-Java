@@ -1,0 +1,15 @@
+{
+  
+  "data": {
+    "user": {
+      "emailAddress": "",
+      "id": "",
+      "userRole": 4,
+      "mobileNumber": "",
+      "firstName": "",
+      "lastName": ""
+    },
+    "accessToken": "",
+    "refreshToken": ""
+  }
+}
