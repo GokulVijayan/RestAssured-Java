@@ -9,4 +9,9 @@
             <class name="TestScripts.Login" />
         </classes>
     </test> 
+        <test name="User Registration">
+        <classes>
+            <class name="TestScripts.Login" />
+        </classes>
+    </test> 
 </suite>
