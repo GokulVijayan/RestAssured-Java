@@ -40,7 +40,7 @@
      <artifactId>Xhaft</artifactId>
      <scope>system</scope>
      <version>1.0</version>
-     <systemPath>${basedir}\src\lib\API-Xhaft.jar</systemPath>
+     <systemPath>${basedir}/src/lib/API-Xhaft.jar</systemPath>
    </dependency>
 <dependency>
     <groupId>org.json</groupId>
@@ -51,7 +51,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
+    <scope>build</scope>
 </dependency>
 <dependency>
     <groupId>com.google.code.gson</groupId>
