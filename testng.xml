@@ -6,12 +6,7 @@
 </listeners>
     <test name="User Login">
         <classes>
-            <class name="testScripts.Login" />
-        </classes>
-    </test> 
-    <test name="Registration">
-        <classes>
-            <class name="testScripts.LoginTest" />
+            <class name="TestScripts.Login" />
         </classes>
     </test> 
 </suite>
