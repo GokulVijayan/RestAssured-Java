@@ -3,10 +3,13 @@ package ProjectConfig;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.json.JSONArray;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.xml.sax.SAXException;
 
 import Reports.Report;
 import Reports.ReportModifier;
@@ -40,7 +43,7 @@ public class Setup {
 	}
 
 	@BeforeSuite(alwaysRun=true)
-	public static void GetScriptCount()
+	public static void GetScriptCount() throws ParserConfigurationException, SAXException
 	{
 		ReportModifier.setUpConfiguration();
 	}
