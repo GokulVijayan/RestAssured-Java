@@ -35,17 +35,17 @@ public class ReportModifier extends TestListenerAdapter {
 	}
 
 	
-	public static void setUpConfiguration() {
+	public static void setUpConfiguration() throws ParserConfigurationException, SAXException {
 		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 		Document doc = null;
 		DocumentBuilder docBuilder;
 		try {
 			docBuilder = docFactory.newDocumentBuilder();
-			doc = docBuilder.parse(Constant.currentDirectory+"\\testng.xml"); // path to your testng.xml
+			doc = docBuilder.parse(Constant.currentDirectory+"//testng.xml"); // path to your testng.xml
 			NodeList parameterNodes = doc.getElementsByTagName("test");
 			scriptCount=parameterNodes.getLength();
 			System.out.println("Total Number of tests to be executed are : " + parameterNodes.getLength());
-		} catch (ParserConfigurationException | SAXException | IOException e) {
+		} catch (IOException e) {
 			System.out.println("Exception while reading counting tests in testng.xml");
 		}
 	}
